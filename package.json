@@ -7,7 +7,6 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
-    "gh-pages": "^2.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -15,7 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,6 +34,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.19.1"
-  }
+  },
+  "homepage": "https://jojojojo1322.github.io/react_movie_app/"
 }
