@@ -16,7 +16,7 @@ function Movie({ year, title, summary, poster, genres }) {
             </li>
           ))}
         </ul>
-        <p className="movie__summary">{summary.slice(0, 180)}...</p>
+        <p className="movie__summary">{summary.slice(0, 100)}...</p>
       </div>
     </div>
   );
@@ -28,7 +28,7 @@ Movie.propTypes = {
   title: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
   poster: PropTypes.string.isRequired,
-  genres: PropTypes.arrayOf(PropTypes.string).isRequired
+  genres: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Movie;
