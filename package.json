@@ -35,7 +35,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   },
   "homepage": "https://jojojojo1322.github.io/react_movie_app/"
